@@ -10,7 +10,7 @@ Mekanisme monitoring dapat terlaksana dengan adanya alat berupa *tapping box* ya
 ### Gambaran Teknis
 
 ``` mermaid
-graph LR
+graph TD
   A[Customer] --> |place| B[Order];
   B --> |recorded| C[PoS];
   C --> |captured| D[Tapping box];
