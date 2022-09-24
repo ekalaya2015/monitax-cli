@@ -1,4 +1,6 @@
-# Welcome to Monitax Command Line Interface (mon-cli)
+# Welcome to Monitax 
+
+## Comnad line interce (mon-cli)
 
 Monitax CLI (mon-cli) adalah *command line interface* untuk berinteraksi dengan backend server
 Dengan mon-cli Anda bisa melakukan pengelolaan User, Device dan Invoice seperti *create user*, *list user*
