@@ -1,6 +1,9 @@
 site_name: Monitax
 theme: 
   name: material
+nav:
+  - Home: index.md
+  - CLI: cli.md    
 markdown_extensions:
   - pymdownx.superfences:
       custom_fences:
