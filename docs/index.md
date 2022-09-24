@@ -12,8 +12,9 @@ Mekanisme monitoring dapat terlaksana dengan adanya alat berupa *tapping box* ya
 ``` mermaid
 graph LR
   A[Customer] --> |place| B[Order];
-  B --> |captured| C[Tapping box];
-  C --> |send| D[Backend server];
-  D --> E[(DB)]
+  B --> |recorded| C[PoS];
+  C --> |captured| D[Tapping box];
+  D --> |send| E[Backend server];
+  E --> F[(DB)]
 ```
 
