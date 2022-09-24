@@ -3,7 +3,8 @@ theme:
   name: material
 nav:
   - Home: index.md
-  - CLI: cli.md    
+  - CLI: cli.md
+  - REST: rest.md    
 markdown_extensions:
   - pymdownx.superfences:
       custom_fences:
