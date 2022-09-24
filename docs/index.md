@@ -13,8 +13,9 @@ Mekanisme monitoring dapat terlaksana dengan adanya alat berupa *tapping box* ya
 graph TD
   A[Customer] --> |place| B[Order];
   B --> |recorded| C[PoS];
-  C --> |captured| D[Tapping box];
-  D --> |send| E[Backend server];
-  E --> F[(DB)]
+  C --> |captured| D[Tapping box] 
+  C --> |print| E[Receipt printer]
+  D --> |send| F[Backend server];
+  F --> G[(DB)]
 ```
 
