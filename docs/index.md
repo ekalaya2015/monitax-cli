@@ -20,7 +20,6 @@ Monitax terdiri dari:
 
 ### Gambaran Teknis
 
-<p style="text-align: center;">
 ``` mermaid
 graph TD
   A[Customer] --> |place| B[Order];
@@ -30,4 +29,3 @@ graph TD
   D --> |send| F[Backend server];
   F --> G[(DB)]
 ```
-</p>
