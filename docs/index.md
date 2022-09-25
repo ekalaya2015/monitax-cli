@@ -9,6 +9,7 @@ Mekanisme monitoring dapat terlaksana dengan adanya alat berupa *tapping box* ya
 
 ### Gambaran Teknis
 
+<p style="text-align: center;">
 ``` mermaid
 graph TD
   A[Customer] --> |place| B[Order];
@@ -18,4 +19,4 @@ graph TD
   D --> |send| F[Backend server];
   F --> G[(DB)]
 ```
-
+</p>
