@@ -13,7 +13,8 @@ Monitax terdiri dari:
    
 2. Aplikasi mobile android/iOS untuk digunakan oleh wajib pajak dalam hal ini pelaku usaha. Pelaku usaha bisa memonitoring transaksi per device, misalnya saja penjualan harian/mingguan, total pajak harian/mingguan dan lain-lain
    
-3. Backend server. Server yang berfungsi untuk mencatat setiap transaksi dari usaha milik wajib pajak yang dicapture oleh tapping box.
+3. Backend server.
+   Backend server berfungsi sebagai provider web service.  
        
 4. Dan tentu saja device yang disebut sebagai tapping box. Sesuai dengan namanya, device ini melakukan tap atau intercept terhadap data order atau transaksi dari aplikasi Point os Sales. Selanjutnya data order atau transaksi dikirim ke backend server. Data dapat berupa text atau image. Backend server akan melakukan parsing data order atau transaksi untuk mengekstrak data-data yang diperlukan seperti tanggal transaksi, nomor invoice/struk/receipt, nilai total sales atau penjualan, nilai pajak dan lain-lain. 
 
