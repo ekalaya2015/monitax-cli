@@ -18,9 +18,19 @@ $ mon-cli configure init
 Host: raspigeek.online
 Ssl [y/n]: y
 Initializing done 👍👍
-
 ```
 
+### Show
+Untuk melihat konfigurasi, ketikkan perintah berikut
+```
+$ mon-cli configure show
+
+host = raspigeek.online
+token = 
+eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE2NjQxMTI4NTIsImV4cCI6MTY2NDExNDY1Miwic3ViIjoiYWYwMjExMTktNzk3Ny00Y2U4LWFkY2ItOTMyYjg4MTc0MWM5Iiwicm9sZ
+SI6IkFkbWluaXN0cmF0b3IiLCJuYW1lIjoiYWRtaW5AZXhhbXBsZS5jb20iLCJyZWZyZXNoIjpmYWxzZX0.L1VkTKznuVwyVJ2kGGlfEg1Wwm1R1kSQbJpuv9UMudE
+ssl = True
+```
 
 ## User
 ### Login
