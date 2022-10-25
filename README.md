@@ -1,6 +1,7 @@
 # Monitax command line interface
 
-This application is a command line interface for interacting with rest api server monitax backend)
+This application is a command line interface for interacting with rest api server (monitax backend).
+
 It is build based on [Typer](https://github.com/tiangolo/typer)
 
 Install (PyPi)
