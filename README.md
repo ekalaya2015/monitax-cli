@@ -4,14 +4,16 @@ This application is a command line interface for interacting with rest api serve
 
 It is build based on [Typer](https://github.com/tiangolo/typer)
 
-Install (PyPi)
-==============
+Install
+=======
+### PyPi
+
 ``
 pip install monitax-cli
 ``
 
-From source
-===========
+### From source
+
 1. Clone this repository
 2. Create virtualenv
 3. Activate virtualenv
